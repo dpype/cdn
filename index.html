@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head><title>CDN Index</title></head>
-<body>
-  <h1>📦 CDN Index</h1>
-  <ul>
-    <li><a href="images/logo.png">images/logo.png</a></li>
-    <li><a href="config/default.json">config/default.json</a></li>
-    <li><a href="scripts/init.js">scripts/init.js</a></li>
-    <li><a href="tenant-a/v1/settings.json">tenant-a/v1/settings.json</a></li>
-    <li><a href="tenant-b/v2/settings.json">tenant-b/v2/settings.json</a></li>
-  </ul>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDN Index</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Main container -->
+  <div class="min-h-screen flex flex-col justify-center items-center py-10">
+    <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">📦 Public CDN Resources</h1>
+
+    <!-- Resource links -->
+    <div class="w-full max-w-2xl bg-white rounded-lg shadow-lg p-6 space-y-4">
+      <p class="text-lg text-gray-600 text-center">
+        Welcome to our public CDN. You can access and use the following resources directly via the links below:
+      </p>
+
+      <ul class="space-y-3">
+        <li><a href="images/logo.png" class="text-blue-500 hover:text-blue-700">images/logo.png</a></li>
+        <li><a href="config/default.json" class="text-blue-500 hover:text-blue-700">config/default.json</a></li>
+        <li><a href="scripts/init.js" class="text-blue-500 hover:text-blue-700">scripts/init.js</a></li>
+        <li><a href="tenant-a/v1/settings.json" class="text-blue-500 hover:text-blue-700">tenant-a/v1/settings.json</a></li>
+        <li><a href="tenant-b/v2/settings.json" class="text-blue-500 hover:text-blue-700">tenant-b/v2/settings.json</a></li>
+      </ul>
+
+      <p class="text-center text-sm text-gray-500 mt-4">
+        You can use these resources by linking them directly in your apps or services.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4 mt-10">
+    <div class="text-center text-sm">
+      <p>&copy; 2025 [Your Org Name]. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
