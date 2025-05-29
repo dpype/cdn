@@ -11,13 +11,13 @@ All assets are hosted via **GitHub Pages**, making them easily accessible via di
 Once uploaded, files are accessible at:
 
 ```
-https://<org-name>.github.io/<repo-name>/<path-to-file>
+https://dpype.github.io/cdn
 ```
 
 **Examples:**
-- Logo: `https://your-org.github.io/cdn/images/logo.png`
-- Config: `https://your-org.github.io/cdn/config/app.json`
-- Script: `https://your-org.github.io/cdn/scripts/init.js`
+- Logo: `https://dpype.github.io/cdn/images/logo.png`
+- Config: `https://dpype.github.io/cdn/config/app.json`
+- Script: `https://dpype.github.io/cdn/scripts/init.js`
 
 ---
 
@@ -62,4 +62,4 @@ You are free to use, modify, and redistribute assets for personal or commercial 
 
 ## 🙋‍♂️ Questions?
 
-For support or questions, contact the [Your Org Name] team via [your-org-site.com](https://your-org-site.com) or [email].
+For support or questions, contact the [Smarty] team via [our website](https://dpype.github.io/cdn) or [cdn@tellsmarty.com].
